@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:background="@color/color_sour"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:background="@color/color_sour"
+            android:orientation="horizontal"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:background="@color/color_sour"
+                android:id="@+id/orderDate"
+                android:text="Date"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_alignParentRight="true"
+                android:paddingLeft="20dp"
+                android:background="@drawable/ic_clear_black_24dp"
+                android:id="@+id/orderClose"
+                android:textSize="16sp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+
+        </RelativeLayout>
+
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerOder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</RelativeLayout>

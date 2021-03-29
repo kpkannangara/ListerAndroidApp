@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:visible="false"
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_male"
+            android:title="My Profile" />
+
+        <item
+            android:visible="true"
+            android:id="@+id/nav_reset"
+            android:icon="@drawable/ic_male"
+            android:title="Reset password" />
+
+    </group>
+    <group
+        android:id="@+id/nav_admin_usage"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_create_users"
+            android:icon="@drawable/ic_user_add"
+            android:title="Create Users" />
+        <item
+            android:id="@+id/nav_add_product_categoty"
+            android:icon="@drawable/ic_options"
+            android:title="Add Category" />
+        <item
+            android:id="@+id/nav_add_products"
+            android:icon="@drawable/ic_item_circle"
+            android:title="Add Items" />
+        <item
+            android:visible="true"
+            android:id="@+id/nav_my_order"
+            android:icon="@drawable/ic_listed_items"
+            android:title="Orders" />
+
+        <item
+            android:id="@+id/nav_users_details"
+            android:icon="@drawable/user"
+            android:title="Users" />
+        <item
+            android:id="@+id/nav_favourite"
+            android:icon="@drawable/ic_favourite"
+            android:title="favourite" />
+        <item
+            android:id="@+id/nav_favourite1"
+            android:title="" />
+        <item
+            android:id="@+id/nav_favourite2"
+            android:title="" />
+
+    </group>
+
+</menu>
